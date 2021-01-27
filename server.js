@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const exphbs = require("express-handlebars");
 const db = require("./models");
+const TrainsController = require("./controllers/trainsController");
 
 const PORT = process.env.PORT || 8080;
 
@@ -21,6 +22,9 @@ app.get("/api/config", (req, res) => {
 app.get("/", (req, res) => {
   res.render("index");
 });
+
+// routing traffic depending on part of the URL
+app.use("/api/trains", TrainsController);
 
 db.sequelize
   .sync()

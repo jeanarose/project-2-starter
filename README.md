@@ -61,6 +61,10 @@ _Optional_ 5. Creating an index.handlebars for your homepage. 6. Adding a root g
     "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql"
 }
+```
+
+## Build a Controller for each Model and add CRUD
+1. 
 
 ## Allow Insecure Prototype Access for Handlebars
 TODO!
