@@ -1,0 +1,28 @@
+{
+  "name": "project-2-starter",
+  "version": "1.0.0",
+  "description": "## Initial App Setup 1. `touch server.js` 2. `npm init -y` 3. `npm install express express-handlebars sequelize mysql2`",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanarose/project-2-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanarose/project-2-starter/issues"
+  },
+  "homepage": "https://github.com/jeanarose/project-2-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
